@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>SHARPENDO UNIVERSITY</title>
+</head>
+<body>
+     <section class="sub-header">
+       <nav>
+           <a href="INDEX.HTML"><img src="photo/logo.png" height="100PX"></a>
+           <div class="nav-links" id="navlinks">
+            <i class="fas fa-times" onclick="hidemenu()"></i>
+               <ul>
+                <li><a href="INDEX.HTML">HOME</a></li>
+                <li><a href="COURSE.HTML">COURSE</a></li>
+                <li><a href="BLOG.HTML">BLOG</a></li>
+                <li><a href="ABOUT.HTML">ABOUT</a></li>
+                <li><a href="CONTACT.HTML">CONTACT US</a></li>
+               </ul>
+               
+           </div>
+           <i class="fas fa-bars" onclick="showmenu()"></i>
+       </nav> 
+      <h1>CONTACT US</h1>
+     </section> 
+     <!--CONTENT-->
+
+
+     <section class="Location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28010.106132384615!2d77.17581204516064!3d28.651834884988755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d029c5f402ed3%3A0x942174294c9dd946!2z4KSV4KSw4KWL4KSyIOCkrOCkvuCklywg4KSo4KSIIOCkpuCkv-CksuCljeCksuClgCwg4KSm4KS_4KSy4KWN4KSy4KWA!5e0!3m2!1shi!2sin!4v1630574178025!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+     </section>
+
+     <section class="contact-us">
+         <div class="row">
+             <div class="contact-col">
+                 <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>xyz building </h5>
+                        <p>karol bagh new delhi</p>
+                    </span>
+                 </div>
+                 <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+91 7217697231 </h5>
+                        <p>Monday to Friday, 9AM To 6PM</p>
+                    </span>
+                 </div>
+                 <div>
+                    <i class="far fa-envelope"></i>
+                    <span>
+                        <h5>adityagupta979797@gmail.com </h5>
+                        <p>Email us For Query</p>
+                    </span>
+                 </div>
+             </div>
+             <div class="contact-col">
+             
+        
+                <form action="form-hndler.php" method="POST">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+        
+                        <input type="email" name="email"  placeholder="Enter Your email" required>
+
+                        <input type="text" name="subject" placeholder="Enter Your subject" required>
+        
+        
+                        <textarea rows="8" name="message" placeholder="your message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">send</button>
+                </form>
+                 
+             </div>
+            </div>
+
+         </div>
+     </section>
+
+     
+
+
+
+
+<!--footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>You Can Connect To Various Platforms Aviable Both Online And Offline <br> You Need is Little Info ,Which is Present here.</p>
+    <div class="icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+
+    </div>
+    <p>Made with <i class="fas fa-grin-hearts"></i> by jason</p>
+
+
+
+
+
+
+
+
+
+
+
+<!--java script--><!--button purpose-->
+<script>
+
+       var navlinks = document.getElementById("navlinks");
+       function showmenu(){
+           navlinks.style.right = "0";
+       }
+       function hidemenu(){
+           navlinks.style.right = "-205px";
+       }
+
+   </script>
+<!--java script end-->
+
+</body>
+</html>

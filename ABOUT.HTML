@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>SHARPENDO UNIVERSITY</title>
+</head>
+<body>
+     <section class="sub-header">
+       <nav>
+           <a href="INDEX.HTML"><img src="photo/logo.png" height="100PX"></a>
+           <div class="nav-links" id="navlinks">
+            <i class="fas fa-times" onclick="hidemenu()"></i>
+               <ul>
+                <li><a href="INDEX.HTML">HOME</a></li>
+                <li><a href="COURSE.HTML">COURSE</a></li>
+                <li><a href="BLOG.HTML">BLOG</a></li>
+                <li><a href="ABOUT.HTML">ABOUT</a></li>
+                <li><a href="CONTACT.HTML">CONTACT US</a></li>
+               </ul>
+               
+           </div>
+           <i class="fas fa-bars" onclick="showmenu()"></i>
+       </nav> 
+      <h1>ABOUT US</h1>
+     </section> 
+
+     <!--content-->
+
+     <section class="About-Us">
+
+        <div class="row">
+            <div class="About-col">
+                <h1>We are The World's Largest University</h1>
+                <p>The University of Sharpendo was established in 1877 as the first national university in India. As a leading research university, USharpendo offers courses in essentially all academic disciplines at both undergraduate and graduate levels and conducts research across the full spectrum of academic activity. The University aims to provide its students with a rich and varied academic environment that ensures opportunities for both intellectual development and the acquisition of professional knowledge and skills. To learn more about the University of Sharpendo</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="About-col">
+                <img src="photo/college meeting.jpg">
+            </div>
+        </div>
+     </section>
+
+
+
+
+<!--footer-->
+
+<section class="footer">
+    <h4>CONNECT TO US</h4>
+    <p>You Can Connect To Various Platforms Aviable Both Online And Offline <br> You Need is Little Info ,Which is Present here.</p>
+    <div class="icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+
+    </div>
+    <p>Made with <i class="fas fa-grin-hearts"></i> by jason</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!--java script--><!--button purpose-->
+<script>
+
+       var navlinks = document.getElementById("navlinks");
+       function showmenu(){
+           navlinks.style.right = "0";
+       }
+       function hidemenu(){
+           navlinks.style.right = "-205px";
+       }
+
+   </script>
+<!--java script end-->
+
+</body>
+</html>
